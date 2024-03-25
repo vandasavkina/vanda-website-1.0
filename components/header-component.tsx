@@ -1,6 +1,6 @@
 import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/react/20/solid'
 
-const cards = [
+export const cards = [
   {
     name: 'Sales',
     description: 'Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.',
@@ -18,7 +18,7 @@ const cards = [
   },
 ]
 
-export default function Example() {
+export default function Header() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
